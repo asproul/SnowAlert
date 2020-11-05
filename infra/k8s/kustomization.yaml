@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- manifests/sa-secrets.yaml
+- manifests/sa-runner-cronjob.yaml
+- manifests/sa-ui-deployment.yaml
+- manifests/sa-ui-service.yaml
